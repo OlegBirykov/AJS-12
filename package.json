@@ -15,6 +15,7 @@
     "show:doc": "live-server doc",
     "preshow:dist": "npm run build",
     "show:dist": "live-server dist",
+    "prebuild": "tsc",
     "watch": "tsc -w"
   },
   "author": "coursar",
