@@ -11,3 +11,9 @@ cart.add(new MusicAlbum(1008, 'Meteora', 'Linkin Park', 900));
 cart.add(new Movie(4298, 'The Avengers', 'Marvel Studios', 650, 2012, 'USA', 'Avengers Assemble!', 'science fiction, action, fantasy, adventure', '137 min. / 02:17'));
 
 console.log(cart.items);
+console.log(cart.getSum());
+console.log(cart.getSumWithDiscount(20));
+
+console.log(cart.delete(999));
+console.log(cart.delete(1008));
+console.log(cart.items);
