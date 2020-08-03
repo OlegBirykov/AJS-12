@@ -15,5 +15,10 @@ console.log(cart.getSum());
 console.log(cart.getSumWithDiscount(20));
 
 console.log(cart.delete(999));
-console.log(cart.delete(1008));
+console.log(cart.delete(4298));
+console.log(cart.items);
+
+console.log(cart.decrement(1008));
+console.log(cart.items);
+console.log(cart.decrement(1008));
 console.log(cart.items);
